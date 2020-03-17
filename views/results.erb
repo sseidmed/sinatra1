@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+       <% @sql_array.each do |row| %>
+           <% row.each do |att| %>
+               <%= att %>
+           <% end %>
+           <br>
+        <% end %>
+    </body>
+</html>
